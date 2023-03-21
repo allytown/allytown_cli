@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 /**
- * houdunren-vue
- * 后盾人前端脚手架
- * @author 向军大叔 <https://www.houdurnen.com>
+ * allytown-vue
+ * allytown前端脚手架
+ * @author allytown
  */
 import chalk from 'chalk'
 import inquirer from 'inquirer'
@@ -45,7 +45,7 @@ async function run() {
       const spinner = createSpinner('开始下载...').start()
       //下载压缩包
       // const { data } = await axios({
-      //   url: 'https://houdunren-soft.oss-cn-hangzhou.aliyuncs.com/vue-master.zip',
+      //   url: 'url',
       //   timeout: 10000,
       //   headers: {
       //     'Content-Type': 'multipart/form-data',
@@ -62,7 +62,7 @@ async function run() {
       // spinner.success({ text: '项目创建成功，请依次执行以下命令' })
 
       //下载git代码
-      download('direct:https://github.com/houdunwang/vue', message.dirname, { clone: true }, function (err) {
+      download('direct:https://github.com/allytown/allytown_cli', message.dirname, { clone: true }, function (err) {
         if (err) {
           spinner.error({ text: '下载失败' })
         } else {
