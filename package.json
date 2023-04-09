@@ -1,16 +1,15 @@
 {
-  "name": "houdunren-vue",
+  "name": "allytown-vue",
   "private": false,
-  "homepage": "https://www.houdunren.com",
-  "description": "后盾人前端脚手架",
+  "description": "allytown前端脚手架",
   "version": "1.0.62",
   "keywords": [
-    "vue3",
-    "pinia",
-    "typescript",
-    "脚手架",
-    "后盾人",
-    "向军大叔"
+    "allytown-vue",
+        "allytown",
+        "vue3",
+        "pinia",
+        "typescript",
+        "前端学习两年半"
   ],
   "license": "MIT",
   "scripts": {
